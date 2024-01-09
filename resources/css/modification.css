@@ -1,0 +1,19 @@
+.rich_green {
+    background: var(--color-rich-green);
+}
+
+.graphite_black {
+    background: var(--color-blac-2);
+}
+
+.color_gray_title_preview {
+    background: var(--color-gray-title-preview);
+}
+
+.a_on_page {
+    border-bottom: 3px solid var(--color-graphite-black);
+}
+
+.color_gray_8 {
+    background: var(--color-gray-8);
+}

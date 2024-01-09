@@ -1,0 +1,66 @@
+@import "variables.css";
+@import "webkit.css";
+@import "fonts.css";
+@import "UI/dropdown.css";
+@import "modification.css";
+@import "UI/buttons.css";
+@import "UI/input.css";
+@import "UI/search.css";
+@import "post/post.css";
+@import "post/detailed.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans";
+    background: inherit;
+    color: inherit;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    background: var(--color-white-1);
+    color: var(--color-graphite-black);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 5vh;
+    width: 100vw;
+    margin-top: 1vh;
+}
+
+.header_menu {
+    display: flex;
+    gap: 2vw;
+    margin: auto 1vw auto 1vw;
+}
+
+.header_buttons {
+    margin: auto 1vw auto 1vw;
+}
+
+.create_form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 400px;
+    height: fit-content;
+}
+.a {
+    text-decoration: none;
+    color: var(--color-graphite-black);
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+
+

@@ -1,0 +1,27 @@
+.search_block {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    min-height: 2.2rem;
+    margin-bottom: 0.3rem;
+    border-radius: 6px;
+    background: var(--color-gray-2);
+}
+
+.search_input {
+    border: none;
+    background: inherit;
+    outline: none;
+    box-shadow: none;
+    margin-left: 1rem;
+}
+
+.go {
+    border: none;
+    text-decoration: none;
+    background: inherit;
+    white-space: nowrap;
+    margin: auto 1rem;
+    font-size: 0.85rem;
+    font-weight: 800;
+}
+

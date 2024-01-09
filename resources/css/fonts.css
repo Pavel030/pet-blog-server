@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Raleway";
+    src: url('/resources/fonts/raleway/Raleway-VariableFont_wght.woff2') format("woff2");
+}
+@font-face {
+    font-family: "Roboto mono";
+    src: url('/resources/fonts/roboto_mono/RobotoMono-VariableFont_wght.woff2') format("woff2");
+}
+@font-face {
+    font-family: "Lora";
+    src: url('/resources/fonts/lora/Lora-VariableFont_wght.woff2') format("woff2");
+}
+@font-face {
+    font-family: "Manrope";
+    src: url('/resources/fonts/manrope/Manrope-VariableFont_wght.woff2') format("woff2");
+}
+@font-face {
+    font-family: "DM Sans";
+    src: url('/resources/fonts/dm_sans/DMSans-VariableFont_opsz,wght.woff2') format("woff2");
+}

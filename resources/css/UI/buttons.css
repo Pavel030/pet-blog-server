@@ -1,0 +1,23 @@
+.btn {
+    text-decoration: none;
+    white-space: nowrap;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    max-width: min-content;
+}
+
+.btn_2 {
+    text-decoration: none;
+    white-space: nowrap;
+    border: 1px solid var(--color-gray-8);
+    border-radius: 6px;
+    color: var(--color-gray-8);
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    max-width: min-content;
+}

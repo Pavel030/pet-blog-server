@@ -1,0 +1,21 @@
+.input_block {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    border: 1px black solid;
+    min-height: 1.8rem;
+}
+.input {
+    border: none;
+    background: inherit;
+    outline: none;
+    box-shadow: none;
+}
+.label {
+    border: none;
+    text-decoration: none;
+    background: inherit;
+    white-space: nowrap;
+    margin: auto 1rem;
+    font-size: 0.85rem;
+}
+
